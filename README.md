@@ -12,7 +12,7 @@ How to Use:
 The purpose of this beginner level project was to get comfortable with using fetch, API's, props, and React.js in general.
 
 
-
+# Run the Application
 
 
 ## Prerequisites

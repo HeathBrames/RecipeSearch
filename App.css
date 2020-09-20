@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
 body{
   height: 100%;
   width: 100%;
@@ -6,6 +9,17 @@ body{
 .App {
   min-height: 100vh;
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6vw;
+  font-weight: 20px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 15px;
+  letter-spacing: 2px;
+  line-height: 10vw;
 }
 
 .search-form{
@@ -22,6 +36,8 @@ body{
 }
 
 .search-button{
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
   background: plum;
   border: none;
   padding: 10px 20px;
@@ -29,7 +45,6 @@ body{
   overflow: hidden;
   transition-duration: .3s;
   transition-property: color, background-color;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .search-button:hover {

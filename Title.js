@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import style from './App.css';
 
 
 const Title = () => {
     return(
-        <h1>Search For Recipes!</h1>
+        <div><h1>Search For Recipes!</h1></div>
     );
 }
 
